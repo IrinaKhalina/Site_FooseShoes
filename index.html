@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Fooseshoes</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	
+<script>
+$(document).ready(function(){
+  
+  
+  $(".slide-one").click(function(){
+    $("#myCarousel2").carousel(0);
+  });
+  $(".slide-two").click(function(){
+    $("#myCarousel2").carousel(1);
+  });
+  $(".slide-three").click(function(){
+    $("#myCarousel2").carousel(2);
+  });
+  $(".slide-four").click(function(){
+    $("#myCarousel2").carousel(3);
+  });
+  $(".slide-five").click(function(){
+    $("#myCarousel2").carousel(4);
+  });
+});
+</script> 
+
+</head>
+<body>
+<div class="container-fluid fon_black">
+	<div class="container header">
+			<div class="col-xs-6 col-sm-6 col-md-5 col-ld-6 logo">
+				<a href="#"><h1>FOOSESHOES</h1></a>
+			</div>
+			<div class="col-xs-6  col-md-7 col-ld-6 login">
+				<div class="search">
+					<div class="form">
+						<input type="search" name="q" class="search-string" placeholder="">
+						<button type="button" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+						</div>
+					<div class="form_2">
+						<a href="#">LOGIN or REGISTER</a>
+					</div>
+				</div>
+			</div>
+		
+	</div>
+</div>
+
+
+<div class="container">
+	<div class="navbar navbar-default" role="navigation">
+		<div class="main_menu">
+			<div class="col-xs-6 col-sm-6 col-md-9 col-ld-10 menu">
+	            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+		            <span class="sr-only">Toggle navigation</span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+	            </button>
+	            <div class="navbar-collapse collapse">
+           			 <ul class="nav navbar-nav">
+           			 	<li><a href="#">Home</a></li>
+						<li><a href="#">Products</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Pages</a></li>
+						<li><a href="#">Blog</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>	
+				</div>
+			</div>
+			<div class="col-md-3 col-ld-2 order clearfix">
+			<ul>
+				<li>
+				<a href="#">
+					<span class="glyphicon glyphicon-star"></span>
+					<span class="badge pull-right">30</span>
+				</a></li>
+				<li>
+				<a href="#">
+					<span class="glyphicon glyphicon-trash"></span>
+					<span class="badge pull-right">0</span>
+				</a></li>	
+			</ul>
+			</div>
+		</div>	
+	</div>
+</div>
+
+
+<div class="examplecarusel">
+<div id="myCarousel2" class="carousel slide" data-interval="3000" data-ride="carousel">
+  <!-- Слайды карусели -->
+  <div class="carousel-inner">
+    <!-- 1 слайд -->
+    <div class="active item">
+   	  <img src="image/fon.jpg" alt="">
+      
+      <div class="carousel-caption">
+        <h1>Pink Shoes 2013 Collection</h1>
+        <p>Nunc non fermentum nunc. Sed ut ante eget leo tempor consequat sit amet eu orci.Donec dignissim dolor eget..</p>
+        <div class="icons">
+					<a href="#"><span class="glyphicon glyphicon-eye-open"></span></a>
+					<a href="#"><span class="glyphicon glyphicon-star-empty"></span></a>
+					<a href="#"><span class="glyphicon glyphicon-share"></span></a>
+					<a href="#"><span class="glyphicon glyphicon-shopping-cart"></span></a>
+		</div>
+      </div>
+    </div>
+    <div class="item">
+      <img src="image/fon_3.jpg" alt="">
+     
+      <div class="carousel-caption">
+        <h1>Prada 2013 Collection</h1>
+        <p>Nunc non fermentum nunc. Sed ut ante eget leo tempor consequat sit amet eu orci.Donec dignissim dolor eget..</p>
+        <div class="icons">
+					<a href="#"><span class="glyphicon glyphicon-eye-open"></span></a>
+					<a href="#"><span class="glyphicon glyphicon-star-empty"></span></a>
+					<a href="#"><span class="glyphicon glyphicon-share"></span></a>
+					<a href="#"><span class="glyphicon glyphicon-shopping-cart"></span></a>
+		</div>
+      </div>
+    </div>
+    <div class="item">
+      <img src="image/fon_2.jpg" alt="">
+      
+      <div class="carousel-caption">
+        <h1>Casadei 2013 Collection</h1>
+        <p>Nunc non fermentum nunc. Sed ut ante eget leo tempor consequat sit amet eu orci.Donec dignissim dolor eget..</p>
+        <div class="icons">
+					<a href="#"><span class="glyphicon glyphicon-eye-open"></span></a>
+					<a href="#"><span class="glyphicon glyphicon-star-empty"></span></a>
+					<a href="#"><span class="glyphicon glyphicon-share"></span></a>
+					<a href="#"><span class="glyphicon glyphicon-shopping-cart"></span></a>
+		</div>
+      </div>
+    </div>
+    <div class="item">
+      <img src="image/fon_1.jpg" alt="">
+      
+      <div class="carousel-caption">
+        <h1>Mellow Yellow 2013 Collection</h1>
+        <p>Nunc non fermentum nunc. Sed ut ante eget leo tempor consequat sit amet eu orci.Donec dignissim dolor eget..</p>
+        <div class="icons">
+					<a href="#"><span class="glyphicon glyphicon-eye-open"></span></a>
+					<a href="#"><span class="glyphicon glyphicon-star-empty"></span></a>
+					<a href="#"><span class="glyphicon glyphicon-share"></span></a>
+					<a href="#"><span class="glyphicon glyphicon-shopping-cart"></span></a>
+		</div>
+      </div>
+    </div>
+    <div class="item">
+      <img src="image/fon.jpg" alt="">
+      
+      <div class="carousel-caption">
+        <h1>Pink Shoes 2013 Collection</h1>
+        <p>Nunc non fermentum nunc. Sed ut ante eget leo tempor consequat sit amet eu orci.Donec dignissim dolor eget..</p>
+        <div class="icons">
+					<a href="#"><span class="glyphicon glyphicon-eye-open"></span></a>
+					<a href="#"><span class="glyphicon glyphicon-star-empty"></span></a>
+					<a href="#"><span class="glyphicon glyphicon-share"></span></a>
+					<a href="#"><span class="glyphicon glyphicon-shopping-cart"></span></a>
+		</div>
+      </div>
+    </div>
+  </div>
+</div>  
+
+
+<div class="slider-nav">
+    <ul class="container slider-nav-1">
+      <li><a class="slider-nav-link slide-one active" href="#">Pink Shoes<span>Now af $145.99</span></a></li>
+      <li><a class="slider-nav-link slide-two" href="#">Anna Field<span>Limited Edition</span></a></li>
+      <li><a class="slider-nav-link slide-three" href="#">Prada<span>Summer is coming</span></a></li>
+      <li><a class="slider-nav-link slide-four" href="#">Casadei<span>All Colors avaiable</span></a></li>
+      <li><a class="slider-nav-link slide-five" href="#">Mellow Yellow<span>Free delivery</span></a></li>
+    </ul>
+  </div>
+
+	<div class="offers">
+  			<div class="container">
+				<div class="row">
+					<div class="col-md-4 col-sm-4">
+						<div class="offers-item of-item-1">
+							<div class="of-item-content"><a href="#">ON SALE</a></div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4">
+						<div class="offers-item of-item-2">
+							<div class="of-item-content"><a href="#">SPECIAL OFFERS</a></div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4">
+						<div class="offers-item of-item-3">
+							<div class="of-item-content"><a href="#">MUST HAVE</a></div>
+						</div>
+					</div>
+				</div>
+			</div>
+	</div>
+</div>
+
+<div class="container-fluid catalog">
+<div class="main">
+    <div class="container">
+      <div class="main-goods-row">
+        <div class="main-goods-top clearfix">
+          <h2 class="main-goods-top-title">New arrivals on FooseShoes</h2>
+          <input class="main-goods-top-button" type="button" value="Show All">
+        </div>
+        <div class="clearfix">
+          <section class="main-goods-block shoes-1">
+            <div class="price-block inner">$145.99</div>
+            <div class="main-goods-title-wrapper">
+              <div class="main-goods-title">Even&amp;Odd</div>
+              <div class="main-goods-menu">
+                <ul class="action-menu clearfix">
+                  <li><a class="action-link icon-view" href="#"><span class="glyphicon glyphicon-eye-open"></span></a></li>
+                  <li><a class="action-link icon-star" href="#"><span class="glyphicon glyphicon-star-empty"></a></li>
+                  <li><a class="action-link icon-share" href="#"><span class="glyphicon glyphicon-share"></span></a></li>
+                  <li><a class="action-link icon-buy" href="#"><span class="glyphicon glyphicon-shopping-cart"></a></li>
+                </ul>
+              </div>
+            </div>
+          </section>
+          <section class="main-goods-block shoes-2">
+            <div class="info-block sale">On sale!</div>
+            <div class="price-block inner">$145.99</div>
+            <div class="main-goods-title-wrapper">
+              <div class="main-goods-title">Even&amp;Odd</div>
+              <div class="main-goods-menu">
+                <ul class="action-menu clearfix">
+                  <li><a class="action-link icon-view" href="#"><span class="glyphicon glyphicon-eye-open"></span></a></li>
+                  <li><a class="action-link icon-star" href="#"><span class="glyphicon glyphicon-star-empty"></a></li>
+                  <li><a class="action-link icon-share" href="#"><span class="glyphicon glyphicon-share"></span></a></li>
+                  <li><a class="action-link icon-buy" href="#"><span class="glyphicon glyphicon-shopping-cart"></a></li>
+                </ul>
+              </div>
+            </div>
+          </section>
+          <section class="main-goods-block shoes-3">
+            <div class="price-block inner">$145.99</div>
+            <div class="main-goods-title-wrapper">
+              <div class="main-goods-title">Even&amp;Odd</div>
+              <div class="main-goods-menu">
+                <ul class="action-menu clearfix">
+                  <li><a class="action-link icon-view" href="#"><span class="glyphicon glyphicon-eye-open"></span></a></li>
+                  <li><a class="action-link icon-star" href="#"><span class="glyphicon glyphicon-star-empty"></a></li>
+                  <li><a class="action-link icon-share" href="#"><span class="glyphicon glyphicon-share"></span></a></li>
+                  <li><a class="action-link icon-buy" href="#"><span class="glyphicon glyphicon-shopping-cart"></a></li>
+                </ul>
+              </div>
+            </div>
+          </section>
+          
+        </div>
+      </div>
+      <div class="main-goods-row">
+        <div class="main-goods-top clearfix">
+          <h2 class="main-goods-top-title">Best sellers of the month</h2>
+          <input class="main-goods-top-button" type="button" value="Show All">
+        </div>
+        <div class="clearfix">
+          <section class="main-goods-block shoes-4">
+            <div class="price-block inner">$145.99</div>
+            <div class="main-goods-title-wrapper">
+              <div class="main-goods-title">Even&amp;Odd</div>
+              <div class="main-goods-menu">
+                <ul class="action-menu clearfix">
+                 <li><a class="action-link icon-view" href="#"><span class="glyphicon glyphicon-eye-open"></span></a></li>
+                  <li><a class="action-link icon-star" href="#"><span class="glyphicon glyphicon-star-empty"></a></li>
+                  <li><a class="action-link icon-share" href="#"><span class="glyphicon glyphicon-share"></span></a></li>
+                  <li><a class="action-link icon-buy" href="#"><span class="glyphicon glyphicon-shopping-cart"></a></li>
+                </ul>
+              </div>
+            </div>
+          </section>
+          <section class="main-goods-block shoes-5">
+            <div class="price-block inner">$145.99</div>
+            <div class="main-goods-title-wrapper">
+              <div class="main-goods-title">Even&amp;Odd</div>
+              <div class="main-goods-menu">
+                <ul class="action-menu clearfix">
+                 <li><a class="action-link icon-view" href="#"><span class="glyphicon glyphicon-eye-open"></span></a></li>
+                  <li><a class="action-link icon-star" href="#"><span class="glyphicon glyphicon-star-empty"></a></li>
+                  <li><a class="action-link icon-share" href="#"><span class="glyphicon glyphicon-share"></span></a></li>
+                  <li><a class="action-link icon-buy" href="#"><span class="glyphicon glyphicon-shopping-cart"></a></li>
+                </ul>
+              </div>
+            </div>
+          </section>
+          <section class="main-goods-block shoes-6">
+            <div class="info-block stock">Out of stock</div>
+            <div class="price-block inner">$145.99</div>
+            <div class="main-goods-title-wrapper">
+              <div class="main-goods-title">Even&amp;Odd</div>
+              <div class="main-goods-menu">
+                <ul class="action-menu clearfix">
+                  <li><a class="action-link icon-view" href="#"><span class="glyphicon glyphicon-eye-open"></span></a></li>
+                  <li><a class="action-link icon-star" href="#"><span class="glyphicon glyphicon-star-empty"></a></li>
+                  <li><a class="action-link icon-share" href="#"><span class="glyphicon glyphicon-share"></span></a></li>
+                  <li><a class="action-link icon-buy" href="#"><span class="glyphicon glyphicon-shopping-cart"></a></li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+      
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<div class="catalog-info">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3 col-sm-6 col-xs-12">
+				<div class="catalog-info-item">
+					<h4>FREE SHIPPING</h4>
+						<p>Vivamus metus turpis, bibendum vitae euismod vel, vulputate vel nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec erat sem, </p>
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-6 col-xs-12">
+				<div id="item_2" class="catalog-info-item ">
+					<h4>TESTIMONIALS</h4>
+						<p>vel, vulputate vel nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec erat sem, vehicula id dictum sit [...]</p>
+						<p class="consumer-name"><em>- John Doe -</em></p>
+				</div>
+			</div>
+			<div class="col-md-6 col-sm-12 col-xs-12">
+				<div id="item_3" class="catalog-info-item">
+					<h4>BLOG NEWS</h4>
+						<div class="row">
+							<div class="blog-date">ART 01</div>
+							<div class="blog-news">
+								<p><a href="#">Nice &amp; clean. The best for you blog!</a></p>
+								<p>Vivamus metus turpis, bibendum vitae euismod vel, vulputate vel nibh. </p>
+							</div>
+							</div>
+							<div class="row">
+								<div class="blog-date">ART 01</div>
+									<div class="blog-news">
+										<p><a href="#">What an Ecommerce theme!</a></p>
+										<p>Vulputate vel nibh. Class aptent taciti sociosqu ad litora</p>
+									</div>
+								</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+<div class="social-wrap">
+			<div class="widgets">
+				<div class="container">
+					
+						<div class="col-md-4 col-sm-4 col-xs-12">
+							<div class="widget txt-widget">
+								<h4>Text widget</h4>
+								<p>Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+							</div>
+						</div>
+
+						<div class="col-md-4 col-sm-4 col-xs-12">
+							<div class="widget tw-widget">
+								<h4>Twitter widget</h4>
+								<div class="tw-post">
+									<p><a href="#">@johndoe</a> Why thank you. Your work looks awesome by the way! <a href="#">@richarddavis</a></p>
+									<p>19 days ago</p>
+								</div>
+								<p><a href="#">@meganfox</a> You can seek a refund through TF if it is not as advertised - but it is :)</p>
+								<p>21 days ago</p>
+							</div>
+						</div>
+
+						<div class=" col-xs-6 col-md-4 col-sm-4 col-xs-12">
+							<div class="widget flckr-widget">
+								<h4>Flickr widget</h4>
+								<a href="#"><img src="image/1_Home.png" alt="Flickr"></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="social">
+			    <div class="container clearfix">
+				    <div class="col-xs-12 col-sm-6">  
+				    	<form class="subscription clearfix" action="#" method="post">
+				        	<input type="email" placeholder="Enter email for newsletter">
+				        	<input type="submit" value=">">
+				      	</form>
+					</div>
+					<div class="col-xs-12 col-sm-6">    
+						<ul class="social-links">
+					        <li><a class="social-link icon-facebook" href="#"></a></li>
+					        <li><a class="social-link icon-twitter" href="#"></a></li>
+					        <li><a class="social-link icon-googleplus" href="#"></a></li>
+					        <li><a class="social-link icon-linkedin" href="#"></a></li>
+					        <li><a class="social-link icon-flickr" href="#"></a></li>
+					    </ul>
+					</div> 
+			    </div>
+			</div>
+			
+		</div>
+
+<footer>
+			<div class="container">
+				
+					<div class="footer-content">
+						<div class="col-md-6 col-sm-4">
+							<div class="rights">
+								<p>Copyright &copy; FooseShoes 2013</p>
+								<p><a href="#">Designed by EnzoLiVolti.</a></p>
+							</div>
+						</div>
+						<div class="col-md-6 col-sm-8 col-xs-hidden">
+							<nav class="footer-menu clearfix hidden-xs">
+								<ul class="clearfix">
+									<li><a href="#">Home </a><span>/</span></li>
+									<li><a href="#">Support </a><span>/</span></li>
+									<li><a href="#">Terms and Conditions </a><span>/</span></li>
+									<li><a href="#">Faqs </a><span>/</span></li>
+									<li><a href="#">Contact us</a><span></span></li>
+								</ul>
+							</nav>
+							
+						</div>
+					</div>
+				
+			</div>
+		</footer>
+	</div>
+
+
+
+</body>
+</html>
